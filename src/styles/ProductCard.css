@@ -1,0 +1,36 @@
+.product-card {
+  max-width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-details {
+  padding: 16px;
+}
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 8px;
+}
+
+.product-name {
+  font-size: 1.2em;
+  margin: 8px 0;
+}
+.add-to-cart-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+}
